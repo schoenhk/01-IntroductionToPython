@@ -114,7 +114,7 @@ natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
 hagrid = rg.SimpleTurtle('circle')
-hagrid.pen = rg.Pen('blue',45)
+hagrid.pen = rg.Pen('blue', 45)
 hagrid.speed = 5
 
 hagrid.forward(45)
