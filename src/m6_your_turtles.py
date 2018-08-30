@@ -28,4 +28,18 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
 import rosegraphics as rg
-window = rg.TurtleWindow
+window = rg.TurtleWindow()
+green_turtle = rg.SimpleTurtle('turtle')
+green_turtle.pen = rg.Pen('green', 5)
+green_turtle.speed = 3
+
+size = 80
+
+for x in range(16):
+    green_turtle.draw_circle(size)
+    green_turtle.pen_up()
+    green_turtle.left(33)
+    green_turtle.forward(7)
+    green_turtle.right(33)
+    green_turtle.pen_down()
+    size = size - 10
