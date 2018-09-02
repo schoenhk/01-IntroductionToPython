@@ -43,3 +43,4 @@ for x in range(16):
     green_turtle.right(33)
     green_turtle.pen_down()
     size = size - 10
+window.close_on_mouse_click()
