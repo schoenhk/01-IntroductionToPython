@@ -53,3 +53,4 @@ Sam.right(180)
 Sam.forward(150)
 window.close_on_mouse_click()
 
+
